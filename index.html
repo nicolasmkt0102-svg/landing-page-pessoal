@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page Pessoal - Vendas Online</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              orange: '#ea580c',
+              orangeHover: '#c2410c',
+              lightOrange: '#fff7ed',
+              dark: '#111827',
+              muted: '#4b5563',
+              cardBg: '#ffffff',
+              pageBg: '#fbf9f5'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #fbf9f5;
+      color: #111827;
+      -webkit-font-smoothing: antialiased;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex justify-center bg-[#fbf9f5] px-4 py-6 sm:py-10">
+
+  <!-- Main Container (Mobile-first responsive card container) -->
+  <main class="w-full max-w-md mx-auto space-y-4">
+
+    <!-- Header / Top Tag -->
+    <div class="flex items-center gap-2 px-1">
+      <span class="inline-block w-2.5 h-2.5 rounded-full bg-orange-500 animate-pulse"></span>
+      <span class="text-xs font-bold uppercase tracking-wider text-orange-600">História Real &bull; Sem Filtros</span>
+    </div>
+
+    <!-- Hero Title & Story Intro -->
+    <header class="space-y-3">
+      <h1 class="text-2xl sm:text-3xl font-extrabold text-gray-900 leading-tight tracking-tight">
+        Vou mostrar que fazer +500 no dia não é tão difícil assim... <span class="text-orange-600 underline decoration-orange-300">SOU COMO VOCÊ.</span>
+      </h1>
+
+      <div class="bg-white/80 backdrop-blur-sm border border-orange-100 rounded-2xl p-4 sm:p-5 shadow-sm text-gray-800 text-sm leading-relaxed space-y-2">
+        <p>
+          Já fui barbeiro, servi o Exército e trabalhei como motoboy e algumas outras parada aí rsrs. Hoje, consigo passar meu conhecimento adiante sobre 
+          <strong class="text-orange-600 font-bold underline decoration-orange-400">VENDER PRODUTO FÍSICO</strong> 
+          pela internet e ajudo outras pessoas a entender esse mercado que <strong>não é COMPLICADO</strong> igual você deve achar que é difícil.
+        </p>
+      </div>
+    </header>
+
+    <!-- Callout Banner -->
+    <div class="bg-gradient-to-r from-amber-50 to-orange-50 border border-orange-200/80 rounded-2xl p-3.5 flex items-start gap-3 shadow-sm">
+      <div class="text-orange-500 text-lg flex-shrink-0 mt-0.5">⚡</div>
+      <p class="text-xs sm:text-sm font-bold text-gray-900 uppercase tracking-tight leading-snug">
+        VEM COMIGO QUE VOU TE MOSTRAR QUE TER A TELA ASSIM NÃO É MUITO DISTANTE DA SUA REALIDADE.
+      </p>
+    </div>
+
+    <!-- Phone Mockup Notification Central (Image 1) -->
+    <section class="bg-gray-950 p-2 sm:p-3 rounded-3xl shadow-xl border-4 border-gray-900 overflow-hidden">
+      <div class="relative rounded-2xl overflow-hidden bg-black">
+        <div class="absolute top-2 left-1/2 -translate-x-1/2 z-10 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full border border-orange-500/30 flex items-center gap-1.5 shadow-sm">
+          <span class="w-1.5 h-1.5 rounded-full bg-orange-400"></span>
+          <span class="text-[10px] font-bold text-orange-300 uppercase tracking-wider">Apenas 1 venda é 500 reais no dia</span>
+        </div>
+        <!-- Replace src with your hosted image or relative path e.g. ./assets/notificacoes.jpg -->
+        <img 
+          src="https://images.unsplash.com/photo-1556742049-0a67c5574f73?auto=format&fit=crop&w=800&q=80" 
+          alt="Notificações de vendas aprovadas no celular" 
+          class="w-full h-auto object-cover rounded-xl"
+        />
+      </div>
+    </section>
+
+    <!-- Reflection & Explanation Section -->
+    <section class="bg-white border border-gray-100 rounded-2xl p-4 sm:p-5 shadow-sm space-y-3">
+      <div class="flex items-center justify-between pb-2 border-b border-gray-100">
+        <div class="flex items-center gap-1.5 text-xs font-bold text-orange-600 uppercase tracking-wide">
+          <span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
+          Faz sentido pra você isso aqui?
+        </div>
+        <span class="text-orange-500 text-sm">✓</span>
+      </div>
+
+      <div class="text-xs sm:text-sm text-gray-700 leading-relaxed space-y-2.5">
+        <p>
+          Quando eu via resultados como esse eu achava que era algo muito fora da minha realidade. Sabe porque? Porque eu não tinha o conhecimento de mercado digital. Mas porque eu falo isso hoje?
+        </p>
+        <p>
+          Bom... É só você reparar aonde está a <strong class="text-gray-900 font-bold">atenção das pessoas o tempo INTEIRO</strong>. O mundo está assim, a todo momento vidrado no celular.
+        </p>
+        <p>
+          Concorda que todo mundo tem um problema? Poisé, se você usar estratégias pra despertar esse desejo na pessoa de querer resolver logo, você tem resultados consistentes como esse.
+        </p>
+        <p>
+          As pessoas são ótimas em adiar decisões. Por isso, se você trabalha de forma estratégica, você consegue bater esse faturamento diário.
+        </p>
+      </div>
+
+      <!-- Result Card Preview (Image 2) -->
+      <div class="pt-2">
+        <div class="rounded-xl overflow-hidden border border-gray-800 shadow-md bg-black">
+          <!-- Replace src with your dashboard image e.g. ./assets/dashboard.jpg -->
+          <img 
+            src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80" 
+            alt="Dashboard de faturamento diário Payt" 
+            class="w-full h-auto object-cover"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Mindset & Community Section -->
+    <section class="space-y-3">
+      <div class="px-1">
+        <span class="inline-block bg-orange-100 text-orange-800 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">
+          Convicção & Propósito
+        </span>
+        <h2 class="text-xl sm:text-2xl font-black text-gray-900 mt-1">
+          VOCÊ NÃO É DIFERENTE DE MIM, E NEM DELES...
+        </h2>
+      </div>
+
+      <div class="bg-white border border-orange-100 rounded-2xl p-4 sm:p-5 shadow-sm text-xs sm:text-sm text-gray-700 leading-relaxed space-y-2">
+        <p>
+          Eu costumo falar que <strong class="text-orange-600 font-bold">SE UMA PESSOA PODE, OUTRA PODE TAMBÉM</strong>. A única coisa que impede você de não ter dinheiro sobrando pra arrumar uma geladeira quando estraga, ou de não ficar preocupado com dinheiro quando uma pessoa que você ama pede alguma coisa... É a falta de conhecimento.
+        </p>
+        <p class="font-extrabold text-gray-900 tracking-tight pt-1">
+          APRENDA UMA HABILIDADE NOVA.
+        </p>
+      </div>
+
+      <!-- Community Prints Mockup (Image 3) -->
+      <div class="bg-white border border-gray-100 rounded-2xl p-3 sm:p-4 shadow-sm space-y-3">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+            <span class="text-[11px] font-bold text-gray-900 uppercase">Você precisa estar com pessoas que têm o mesmo objetivo</span>
+          </div>
+          <span class="bg-amber-100 text-amber-900 text-[9px] font-bold px-2 py-0.5 rounded-full">Comunidade Ativa</span>
+        </div>
+
+        <div class="rounded-xl overflow-hidden border border-gray-800 bg-black">
+          <!-- Replace src with your WhatsApp prints e.g. ./assets/comunidade.jpg -->
+          <img 
+            src="https://images.unsplash.com/photo-1616469829941-c7200edec809?auto=format&fit=crop&w=800&q=80" 
+            alt="Resultados da comunidade de vendas online" 
+            class="w-full h-auto object-cover"
+          />
+        </div>
+
+        <p class="text-[11px] sm:text-xs text-gray-600 leading-relaxed italic text-center">
+          Talvez o que você quer é apenas um extra de 500 ou 1000 reais no mês. Mas você vai perceber que você pode mais.
+        </p>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="bg-gradient-to-b from-orange-50/70 to-white border border-orange-200 rounded-3xl p-5 sm:p-6 shadow-sm text-center space-y-3.5">
+      <div class="w-12 h-12 bg-orange-500 text-white rounded-2xl flex items-center justify-center text-xl mx-auto shadow-md shadow-orange-500/20">
+        🚀
+      </div>
+
+      <div class="space-y-1.5">
+        <h3 class="text-lg sm:text-xl font-extrabold text-gray-900">
+          Quer conhecer melhor esse mercado?
+        </h3>
+        <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+          Se você quer entender como funcionam as vendas de produtos físicos pela internet e conhecer o que aprendi nessa jornada, pode me chamar aí, te explico tudo.
+        </p>
+      </div>
+
+      <!-- Action Button - Configure your WhatsApp link in href -->
+      <a 
+        href="https://wa.me/SEUNUMEROAQUI?text=Ol%C3%A1%2C%20vi%20sua%20p%C3%A1gina%20e%20gostaria%20de%20entender%20como%20funciona%20esse%20mercado" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="inline-flex items-center justify-center gap-2 w-full py-4 px-6 bg-gradient-to-r from-orange-500 to-amber-600 hover:from-orange-600 hover:to-amber-700 active:scale-[0.98] transition-all text-white font-bold text-sm sm:text-base rounded-2xl shadow-lg shadow-orange-500/30 uppercase tracking-wide cursor-pointer"
+      >
+        <span>Quero saber mais</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+        </svg>
+      </a>
+
+      <p class="text-[10px] text-gray-400">
+        Conversa direta e transparente &bull; Sem promessas irreais
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center text-[11px] text-gray-400">
+      &copy; 2026 Todos os direitos reservados.
+    </footer>
+
+  </main>
+
+</body>
+</html>
